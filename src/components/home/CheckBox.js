@@ -1,5 +1,5 @@
 import React from "react";
-import check from '../../static/images/check.png';
+import check from '../../static/images/home/check.png';
 
 const CheckBox = (props) => {
   return (

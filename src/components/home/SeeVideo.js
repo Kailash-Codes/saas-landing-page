@@ -1,5 +1,5 @@
 import React from 'react'
-import play from '../../static/images/play.png';
+import play from '../../static/images/home/play.png';
 const SeeVideo = () => {
   return (
     <span className='flex gap-3'>
