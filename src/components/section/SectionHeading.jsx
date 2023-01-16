@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const SectionHeading = () => {
   return (
-    <div className='flex'>
-        <h1 className='text-[56px]'>Automated portfolio tracking</h1>
+    <div className="flex black">
+      <h1 className="text-[56px] font-black">
+        Automated <br/> portfolio tracking
+      </h1>
     </div>
-  )
-}
+  );
+};
 
-export default SectionHeading
+export default SectionHeading;

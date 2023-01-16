@@ -4,7 +4,7 @@ import SectionTestimonials from './SectionTestimonials';
 
 const SectionHeadingContainer = () => {
   return (
-    <div className='flex flex-col items-center justify-center sm:flex-row'>
+    <div className='flex flex-col justify-between  items-center sm:flex-row'>
       <SectionHeading />
       <SectionTestimonials />
     </div>

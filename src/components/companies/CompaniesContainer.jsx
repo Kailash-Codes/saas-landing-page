@@ -16,7 +16,7 @@ const CompaniesContainer = () => {
     <div className='bg-[#F5F6F8] py-5'>
         <Heading />
         <div className='flex gap-5 justify-center py-3 mt-4 px-10 items-center flex-wrap'>
-        {companyArr.map((source)=><Company source={source}/>)}
+        {companyArr.map((source,index)=><Company key={index} source={source}/>)}
         </div>
     </div>
   )
