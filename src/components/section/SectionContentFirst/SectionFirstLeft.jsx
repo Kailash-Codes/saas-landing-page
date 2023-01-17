@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../static/images/section-contents/first-section.png';
+import image from '../../../static/images/section-contents/first-section.png';
 const SectionFirstLeft = () => {
   return (
     <div className='flex justify-center items-center'>

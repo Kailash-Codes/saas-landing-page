@@ -1,5 +1,5 @@
 import React from 'react';
-import check from '../../static/images/section-contents/check.png';
+import check from '../../../static/images/section-contents/check.png';
 
 const SectionRightCheck = (props) => {
   return (
