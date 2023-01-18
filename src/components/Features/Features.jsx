@@ -22,13 +22,14 @@ const Features = () => {
     <div className="g">
 
     <div className="grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
-        {details.map((item)=>  <Box
+        {details.map((item,ind)=>  <Box
+        key={ind}
         src={item.src}
         heading={item.heading}
         desc={item.desc}
         />)}
     <div className="grid gap-4">
-    {details.map((item)=><Box heading={item.lastHeading} />)}
+    {details.map((item,ind)=><Box key={ind} heading={item.lastHeading} />)}
     </div>
     </div>
         </div>

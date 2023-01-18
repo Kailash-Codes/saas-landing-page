@@ -11,6 +11,7 @@ const FeatureContainer = () => {
      me message as delight. Whole front do of plate 
      heard oh ought. His defective nor convinced
       residence own." />
+      <br/>
       <Features />
 
   </div>;
