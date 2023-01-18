@@ -2,3 +2,28 @@
 * {
   font-family: "Manrope", sans-serif;
 }
+@media (width<=384px) {
+  .testi {
+    width: 100% !important;
+  }
+  .topics{
+    font-size: 40px !important;
+  }
+}
+@media (width<=254px) {
+.topics{
+  font-size: 30px !important;
+}
+*{
+  word-wrap: break-word !important;
+}
+}
+@media (width<=200px) {
+#root{
+  display: none;
+}
+.screen-msg{
+  display: block !important;
+
+}
+}
