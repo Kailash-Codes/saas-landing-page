@@ -13,7 +13,7 @@ const SectionRight = () => {
         on the go with the
         best way possible"
       />
-      <SectionContentDesc desc="
+      <SectionContentDesc width="big" desc="
       Indulgence way everything joy 
       alteration boisterous the 
       attachment. Party we years
