@@ -1,7 +1,7 @@
 import React from "react";
 
-const StatText = () => {
-  return <div>StatText</div>;
+const StatText = ({text}) => {
+  return <div>{text}</div>;
 };
 
 export default StatText;
