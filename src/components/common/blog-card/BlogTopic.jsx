@@ -8,8 +8,7 @@ const BlogHeading = ({text}) => {
      sm:px-0
      sm:text-start
      text-center
-     
-     lg:w-[90%]
+     lg:w-[95%]
      my-4
      '
      >{text}</h1>
