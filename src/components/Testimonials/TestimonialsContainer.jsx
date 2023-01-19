@@ -4,7 +4,7 @@ import SectionContentDesc from "../common/SectionContentDesc";
 import Testimonials from './Testimonials';
 const TestimonialsContainer = () => {
   return (
-    <div className=" lg:px-28 md:px-20 px-5 py-10">
+    <div className=" lg:px-28 md:px-20 px-5 pb-24 py-10 bg-[#FAFBFF]">
       <BigHeading text="Testimonials" />
       <br/>
       <SectionContentDesc
