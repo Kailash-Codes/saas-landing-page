@@ -1,4 +1,5 @@
 import React from "react";
+import BlogsContainer from "./components/blogs/BlogsContainer";
 import CompaniesContainer from "./components/companies/CompaniesContainer";
 import FeatureContainer from "./components/Features/FeatureContainer";
 import Home from "./components/home/Home";
@@ -15,6 +16,7 @@ const App = () => {
       <FeatureContainer />
       <TestimonialsContainer />
       <StatContainer />
+      <BlogsContainer />
     </div>
   );
 };
