@@ -1,6 +1,7 @@
 import React from "react";
 import BlogsContainer from "./components/blogs/BlogsContainer";
 import CompaniesContainer from "./components/companies/CompaniesContainer";
+import FaqContainer from "./components/FAQ/FaqContainer";
 import FeatureContainer from "./components/Features/FeatureContainer";
 import Home from "./components/home/Home";
 import SectionContainer from "./components/section/SectionContainer";
@@ -17,6 +18,7 @@ const App = () => {
       <TestimonialsContainer />
       <StatContainer />
       <BlogsContainer />
+      <FaqContainer />
     </div>
   );
 };
