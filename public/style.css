@@ -37,3 +37,6 @@
     height: 10vh !important;
   }
 }
+.shown{
+transform: translateY(0px) !important;
+opacity: 1 !important;}
