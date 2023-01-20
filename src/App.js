@@ -3,6 +3,7 @@ import BlogsContainer from "./components/blogs/BlogsContainer";
 import CompaniesContainer from "./components/companies/CompaniesContainer";
 import FaqContainer from "./components/FAQ/FaqContainer";
 import FeatureContainer from "./components/Features/FeatureContainer";
+import FooterContainer from "./components/Footer/FooterContainer";
 import Home from "./components/home/Home";
 import ManageContainer from "./components/ManagingSpending/ManageContainer";
 import SectionContainer from "./components/section/SectionContainer";
@@ -21,6 +22,7 @@ const App = () => {
       <BlogsContainer />
       <FaqContainer />
       <ManageContainer />
+      <FooterContainer />
     </div>
   );
 };
