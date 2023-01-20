@@ -26,10 +26,12 @@
     display: block !important;
   }
 }
-
 @media (width<287px) {
   .newsletterbox {
     grid-template-columns: auto !important;
+  }
+  .home-btn{
+    flex-direction: column !important;
   }
   .subscribe-btn {
     padding-left: 0 !important;
