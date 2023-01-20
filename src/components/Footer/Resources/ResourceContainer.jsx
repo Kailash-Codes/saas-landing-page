@@ -20,7 +20,7 @@ const ResourceContainer = () => {
   return (
     <div className='lg:col-span-1'>
         <FooterHeading heading="Resources" />
-        {lists.map((link)=><NavList item={link.link} />)} 
+        {lists.map((link,ind)=><NavList key={ind} item={link.link} />)} 
     </div>
   )
 }

@@ -31,7 +31,7 @@ asked questions`}
         <div className="lg:w-[145%] md:w-[130%]">
 
     {details.map((detail,ind)=><Faq
-    jey={ind} 
+    key={ind} 
     heading={detail.heading}
     desc={detail.desc} />)}
     </div>

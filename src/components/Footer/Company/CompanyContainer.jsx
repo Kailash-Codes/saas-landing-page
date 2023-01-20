@@ -20,7 +20,7 @@ const CompanyContainer = () => {
     <div className="lg:col-span-1">
       <FooterHeading heading="Company" />
       <div className="lists">
-        {lists.map((link)=><NavList item={link.link} />)}
+        {lists.map((link,ind)=><NavList key={ind} item={link.link} />)}
       </div>
     </div>
   );
