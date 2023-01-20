@@ -4,6 +4,7 @@ import CompaniesContainer from "./components/companies/CompaniesContainer";
 import FaqContainer from "./components/FAQ/FaqContainer";
 import FeatureContainer from "./components/Features/FeatureContainer";
 import Home from "./components/home/Home";
+import ManageContainer from "./components/ManagingSpending/ManageContainer";
 import SectionContainer from "./components/section/SectionContainer";
 import StatContainer from "./components/StatSeperator/StatContainer";
 import TestimonialsContainer from "./components/Testimonials/TestimonialsContainer";
@@ -19,6 +20,7 @@ const App = () => {
       <StatContainer />
       <BlogsContainer />
       <FaqContainer />
+      <ManageContainer />
     </div>
   );
 };
